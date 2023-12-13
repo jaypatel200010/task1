@@ -1,24 +1,34 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+// import "./About.scss";
+import Aboutus from "./Components/Aboutus";
+import List from "./Components/List";
+import Render from "./Components/Render";
+import Scss from "./Components/Scss";
+import Footer from "./Components/Footer";
+import Form from "./Components/Form";
+import Navbar from "./Components/Navbar";
+import Slider from "./Components/Slider";
+import Hooks from "./Components/Hooks";
+import Timer from "./Components/Timer";
+import Increament from "./Components/Increament";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <Navbar />
+      <Slider />
+      <Footer />
+      <div className="container mt-5">
+        <Form home="Enter your data here" />
+      </div> */}
+      {/* <Aboutus></Aboutus> */}
+      {/* <Render /> */}
+      {/* <List></List> */}
+      {/* <Scss></Scss> */}
+      {/* <Hooks></Hooks> */}
+      {/* <Timer></Timer> */}
+      <Increament></Increament>
+    </>
   );
 }
 

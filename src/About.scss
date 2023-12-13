@@ -1,0 +1,26 @@
+// $one : red;
+// .One{
+//     background-color: $one;
+// }
+
+// nav{
+//     ul{
+//         list-style: none;
+//     }
+//     li{
+//         background-color: red;
+//         // color: yellow;
+//     }
+//     a {
+//         color: yellow;
+//     }
+// }
+$one : blue;
+div {
+    $one : red !global;
+    color: $one;
+}
+
+p { 
+    color: $one;
+}
