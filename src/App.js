@@ -11,6 +11,7 @@ import Slider from "./Components/Slider";
 import Hooks from "./Components/Hooks";
 import Timer from "./Components/Timer";
 import Increament from "./Components/Increament";
+import Context from "./Components/Context";
 
 function App() {
   return (
@@ -27,7 +28,8 @@ function App() {
       {/* <Scss></Scss> */}
       {/* <Hooks></Hooks> */}
       {/* <Timer></Timer> */}
-      <Increament></Increament>
+      {/* <Increament></Increament> */}
+      <Context></Context>
     </>
   );
 }
