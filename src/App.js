@@ -12,6 +12,7 @@ import Hooks from "./Components/Hooks";
 import Timer from "./Components/Timer";
 import Increament from "./Components/Increament";
 import Context from "./Components/Context";
+import Useref from "./Components/Useref";
 
 function App() {
   return (
@@ -29,7 +30,8 @@ function App() {
       {/* <Hooks></Hooks> */}
       {/* <Timer></Timer> */}
       {/* <Increament></Increament> */}
-      <Context></Context>
+      {/* <Context></Context> */}
+      <Useref></Useref>
     </>
   );
 }
