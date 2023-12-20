@@ -13,6 +13,7 @@ import Timer from "./Components/Timer";
 import Increament from "./Components/Increament";
 import Context from "./Components/Context";
 import Useref from "./Components/Useref";
+import Reducer from "./Components/Reducer";
 
 function App() {
   return (
@@ -31,7 +32,8 @@ function App() {
       {/* <Timer></Timer> */}
       {/* <Increament></Increament> */}
       {/* <Context></Context> */}
-      <Useref></Useref>
+      {/* <Useref></Useref> */}
+      <Reducer></Reducer>
     </>
   );
 }

@@ -1,24 +1,31 @@
-#nav{
+#nav {
   background-color: #000000;
 }
-.nav-item{
+.nav-item {
   margin-right: 30px;
   font-size: 16px;
 }
-.site-nav__label{
+.site-nav__label {
   color: white;
 }
-.d-block{
+.d-block {
   height: 500px;
 }
-#footer{
+#footer {
   background-color: #000000;
   color: #ffffff;
 }
-#camp{
-  font-size: 52px; 
+#camp {
+  font-size: 52px;
   font-weight: 400;
 }
-#contact{
+#contact {
   margin-left: 300px;
+}
+#reducer {
+  height: 50px;
+  width: 120px;
+  border: 1px solid black;
+  border-radius: 5px;
+  color: black;
 }
